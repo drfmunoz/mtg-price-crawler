@@ -1,0 +1,9 @@
+{
+    "cardSets": {
+            "ISD": "http://gatherer.wizards.com/Pages/Search/Default.aspx?output=checklist&set=[%22Innistrad%22]",
+            "DKA": "http://gatherer.wizards.com/Pages/Search/Default.aspx?output=checklist&set=[%22Dark%20Ascension%22]",
+            "AVR": "http://gatherer.wizards.com/Pages/Search/Default.aspx?output=checklist&set=%5b%22Avacyn+Restored%22%5d",
+            "RTR": "http://gatherer.wizards.com/Pages/Search/Default.aspx?output=checklist&set=[%22Return%20to%20Ravnica%22]",
+            "M13": "http://gatherer.wizards.com/Pages/Search/Default.aspx?output=checklist&set=[%22Magic%202013%22]"
+        }
+}

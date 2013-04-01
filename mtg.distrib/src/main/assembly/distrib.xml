@@ -1,0 +1,35 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+	<id>mtg.distrib</id>
+	<baseDirectory>Crawler-${project.version}</baseDirectory>
+	<formats>
+		<format>zip</format>
+	</formats>
+
+	<fileSets>
+		<fileSet>
+			<directory>src/main/scripts</directory>
+			<outputDirectory>app/script</outputDirectory>
+		</fileSet>
+        <fileSet>
+            <directory>src/main/resources/data</directory>
+            <outputDirectory>data/resources</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/resources/</directory>
+            <includes>
+                <include>*.sql</include>
+            </includes>
+            <outputDirectory>app/database</outputDirectory>
+        </fileSet>
+		<fileSet>
+			<directory>target/dependency</directory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+			<outputDirectory>app/lib</outputDirectory>
+		</fileSet>
+	</fileSets>
+
+</assembly>
