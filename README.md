@@ -11,7 +11,7 @@ Requirements
 * Maven 3.0 (required for building)
 * MysqlDriver - mysql-connector-java 5.1.18 (required to use a Mysql database)
 * A Mysql database server (if you are using Mysql as your database backend)
-* [mtg-price-viewer](http://github.com/drfmunoz/mtg-price-crawler) for prices visualization.
+* [mtg-price-viewer](http://github.com/drfmunoz/mtg-price-viewer) for prices visualization.
 
 Building
 ========
