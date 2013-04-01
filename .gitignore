@@ -1,0 +1,19 @@
+.classpath
+.project
+.settings
+.springBeans
+.idea
+*.iml
+*.ipr
+*.class
+*.iws
+nohup.out
+*.pyc
+rootLogger.log
+target
+*AntepediaReporter.log
+ *src/main/java/FreddyTest.java
+.buildpath
+.DS_Store
+*.pyc
+*.log
