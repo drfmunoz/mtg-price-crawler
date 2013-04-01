@@ -24,6 +24,7 @@ Setup
 * Set your base installation directory in the file `settings.cfg` (variable `MTGCRAWL_LOCATION` in the script located at app/script/settings.cfg)
 ** NOTE: If you just downloaded or produced `mtgcrawler-1.0-SNAPSHOT.zip`, the the root location for your installation will be the unzipped directory `mtgcrawler-1.0-SNAPSHOT` (use the fullpath to that directory e.g /home/freddy/Download/mtgcrawler-1.0-SNAPSHOT).
 * If you are using [Mysql](http://www.mysql.com/) as your backend database, copy the Mysql driver ([mysql-connector-java 5.1.18](http://dev.mysql.com/downloads/connector/j/5.0.html)) into your installation directory library location (`$MTGCRAWL_LOCATION/app/lib`).
+* Edit the file `appConfig.properties` (located at `$MTGCRAWL_LOCATION/settings/appConfig.properties`) with you database settings.
 * Create the database structure using the script `database.sql` (original file created for Mysql, located at `$MTGCRAWL_LOCATION/database/database.sql`).
 
 Launch the crawler
