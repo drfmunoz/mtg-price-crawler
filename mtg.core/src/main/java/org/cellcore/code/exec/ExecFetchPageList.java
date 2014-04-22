@@ -84,7 +84,7 @@ public class ExecFetchPageList extends AbstractExec {
                 new Option("o", "out", true, "output configuration file") {{
                     setRequired(true);
                 }},
-                new Option("f", "filter", true, "json file containg name filters") {{
+                new Option("f", "filter", true, "json file containing name filters") {{
                     setRequired(true);
                 }}
         };

@@ -17,6 +17,10 @@
             <outputDirectory>data/resources</outputDirectory>
         </fileSet>
         <fileSet>
+            <directory>src/main/settings</directory>
+            <outputDirectory>settings</outputDirectory>
+        </fileSet>
+        <fileSet>
             <directory>src/main/resources/</directory>
             <includes>
                 <include>*.sql</include>

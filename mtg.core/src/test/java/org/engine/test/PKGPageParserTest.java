@@ -10,6 +10,7 @@ import org.cellcore.code.engine.page.extractor.pkg.PKGEditionsExtractor;
 import org.cellcore.code.engine.page.extractor.pkg.PKGPageDataExtractor;
 import org.cellcore.code.model.Card;
 import org.cellcore.code.shared.GsonUtils;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -20,6 +21,7 @@ import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 public class PKGPageParserTest {
 
 

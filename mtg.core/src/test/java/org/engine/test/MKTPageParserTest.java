@@ -25,6 +25,8 @@ import static org.junit.Assert.assertEquals;
  * Create By : freddy
  * Date: 3/3/13
  * Time: 12:49 PM
+ * This test requires installing the SSL certificate entity for https://www.magiccardmarket.eu
+ *
  */
 public class MKTPageParserTest {
     @Test

@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# launches all the site crawlers in parallel
+#
 if [ -z "$BASE_SCRIPT" ]; then
 	SCRIPT_PATH=`dirname $0`
 	source $SCRIPT_PATH"/settings.cfg"
@@ -17,8 +20,6 @@ nohup $BASE_SCRIPT_CC 'mfrag' 'MFRAG' &
 echo "MFRAG crawl launched"
 nohup $BASE_SCRIPT_CC 'pkg' 'PKG' & 
 echo "PKG crawl launched"
-#nohup $BASE_SCRIPT_CC 'stc' 'STC' 4000 &
-#echo "STC crawl launched"
 nohup $BASE_SCRIPT_CC 'mkt' 'MKT'&
 echo "MKT crawl launched"
 nohup $BASE_SCRIPT_CC 'mvl' 'MVL'&

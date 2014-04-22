@@ -93,9 +93,8 @@ CREATE TABLE `UPDATE_PRICES` (
 
 
 CREATE
-DEFINER=`rdbmuser`@`%`
-TRIGGER `mtga`.`price_update_trigger`
-BEFORE UPDATE ON `mtga`.`CARD_PRICE_SOURCE`
+TRIGGER `price_update_trigger`
+BEFORE UPDATE ON `CARD_PRICE_SOURCE`
 FOR EACH ROW
 BEGIN
 		IF (OLD.lastPrice != NEW.lastPrice) THEN

@@ -10,4 +10,4 @@ if [[ $3 ]]; then
 fi
 # echo $CURRENT_DATE
 $BASE_SCRIPT ExecFetch $SLEEP_OPT -i  $RESOURCE"/"$1 -o  $RESULTS > $LOGS"/crawl_"$1"_"$CURRENT_DATE".log"
-$BASE_SCRIPT ExecConsolidate -g -i  $RESULTS"/"$2 > $LOGS"/concile_"$1"_"$CURRENT_DATE".log"
+$BASE_SCRIPT ExecConsolidate -g -i  $RESULTS"/"$2 > $LOGS"/reconcile_"$1"_"$CURRENT_DATE".log"
